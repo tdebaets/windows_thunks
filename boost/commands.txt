@@ -1,0 +1,6 @@
+git clone --recursive https://github.com/boostorg/boost.git
+cd boost
+bootstrap.bat
+b2 headers
+b2 tools/bcp
+dist\bin\bcp.exe N:\Documenten\Projecten\Other\windows_thunks\include\thunks.hpp N:\Documenten\Projecten\Other\windows_thunks\
